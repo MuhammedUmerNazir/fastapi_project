@@ -7,5 +7,5 @@ def root():
     return {"message": "Welcome to my API"}
 
 @app.get("/post")
-def make_post():
-    return {"message": "Successfully created post"}
+def get_posts():
+    return {"data": "This is your posts"}
